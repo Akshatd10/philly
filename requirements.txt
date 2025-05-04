@@ -1,5 +1,5 @@
 openai
-streamlit
+streamlit==1.41.1
 langchain
 python-dotenv
 torch
