@@ -1,4 +1,4 @@
-
+openai
 streamlit
 langchain
 python-dotenv
@@ -10,3 +10,4 @@ langchain-community
 sentence-transformers
 numpy<2.0.0
 pysqlite3-binary
+beautifulsoup4
