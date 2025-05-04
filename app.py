@@ -4,7 +4,9 @@ from langchain.chains import RetrievalQA
 from langchain.vectorstores import Chroma
 from dotenv import load_dotenv
 from langchain.embeddings import HuggingFaceEmbeddings
-
+import pysqlite3
+import sys
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 load_dotenv()
 
 embedding_function = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
