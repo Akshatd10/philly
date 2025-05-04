@@ -9,3 +9,4 @@ chromadb==0.4.24
 opentelemetry-exporter-otlp==1.22.0
 langchain-community
 sentence-transformers
+numpy<2.0.0
