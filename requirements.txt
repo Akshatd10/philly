@@ -1,0 +1,8 @@
+streamlit-chatbot-webapp/streamlit-chatbot-webapp/requirements.txt
+
+streamlit
+langchain
+python-dotenv
+torch
+transformers
+chromadb
