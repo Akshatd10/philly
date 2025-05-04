@@ -1,4 +1,3 @@
-streamlit-chatbot-webapp/streamlit-chatbot-webapp/requirements.txt
 
 streamlit
 langchain
