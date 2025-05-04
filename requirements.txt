@@ -3,7 +3,6 @@ streamlit
 langchain
 python-dotenv
 torch
-transformers
 protobuf==3.20.3
 chromadb==0.4.24
 opentelemetry-exporter-otlp==1.22.0
